@@ -1,4 +1,4 @@
-# Obsidian diagram generator
+# Obsidian Diagram Generator
 
 ## Description
 
