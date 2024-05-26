@@ -81,9 +81,9 @@ class ArchitectureDiagram(Obsidian):
 
 
 if __name__ == '__main__':
-    path = 'sim_sp'
-    architecture_path = 'sim_sp_architecture'
-    obsidian_path = 'C:/Users/antoi/AppData/Local/programs/obsidian/obsidian.exe'
+    path = 'project/src'
+    architecture_path = 'architecutre_vault'
+    obsidian_path = 'C:/path_to_obsidian/obsidian/obsidian.exe'
 
     arch = ArchitectureDiagram(path, obsidian_path, architecture_path, ignore='.ads')
     arch.main()

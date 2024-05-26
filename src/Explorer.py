@@ -24,7 +24,7 @@ class Explorer:
 
 
 if __name__ == '__main__':
-    path = 'sim_sp/SIM_SP_MFR/src'
+    path = 'project/src'
 
     explorer = Explorer()
     explorer.print_file_tree(path)

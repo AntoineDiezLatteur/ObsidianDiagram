@@ -34,9 +34,9 @@ class Diagram:
                             help='Display the file tree in the console ')
 
         # Secondary arguments
-        parser.add_argument('-obs', '--obsidian', type=str, default='C:/Users/antoi/AppData/Local/programs/obsidian/obsidian.exe',
+        parser.add_argument('-obs', '--obsidian', type=str, default='C:/path_to_obsidian/obsidian/obsidian.exe',
                             help='Select the obsidian path ')
-        parser.add_argument('-p', '--path', type=str, default='sim_sp/SIM_SP_MFR/src',
+        parser.add_argument('-p', '--path', type=str, default='project/src',
                             help='Select the path to explore ')
         parser.add_argument('-d', '--diagram', type=str, default='diagram_vault',
                             help='Select the diagram path ')

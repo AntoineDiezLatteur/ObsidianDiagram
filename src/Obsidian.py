@@ -12,7 +12,7 @@ import subprocess
 
 class Obsidian:
 
-    def __init__(self, path, obsidian_path='C:/Users/antoi/AppData/Local/programs/obsidian/obsidian.exe', diagram_path='diagram_vault', ignore='.ads'):
+    def __init__(self, path, obsidian_path, diagram_path, ignore):
         self.path = path
         self.ignore = ignore
         self.diagram_path = diagram_path
@@ -44,9 +44,9 @@ class Obsidian:
             filepath = os.path.join(self.diagram_path, filename)
             try:
                 os.remove(filepath)
-                print(f"Le fichier {filepath} a été supprimé avec succès.")
+                print(f"File {filepath} successfully removed.")
             except OSError as e:
-                print(f"Erreur lors de la suppression du fichier {filepath}: {e}")
+                print(f"Error during file {filepath} removal : {e}")
 
 
     @abstractmethod

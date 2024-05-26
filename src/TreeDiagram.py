@@ -13,7 +13,7 @@ import seaborn as sns
 
 class TreeDiagram(Obsidian):
 
-    def __init__(self, path, obsidian_path, diagram_path, ignore='.klmsnfnmlkjfg'):
+    def __init__(self, path, obsidian_path, diagram_path, ignore):
         super().__init__(path, obsidian_path, diagram_path, ignore)
         self.lst_path = []
 
@@ -33,13 +33,11 @@ class TreeDiagram(Obsidian):
             path = self.path
         self.generate_node(path, path)
         for root, dirs, files in os.walk(path):
-            # Générer des fichiers de feuilles pour chaque fichier dans le répertoire courant
             for file in files:
-                file_name = file  # Nom du fichier sans extension
-                file_path = root  # Chemin complet du fichier
+                file_name = file
+                file_path = root
                 self.generate_node(file_name, file_path)
 
-            # Récursion pour parcourir les sous-répertoires
             for directory in dirs:
                 file_name = os.path.join(root, directory)
                 subdir_path = root
@@ -55,7 +53,6 @@ class TreeDiagram(Obsidian):
             data = json.load(file)
         data['colorGroups'] = []
         for i in range(len(set(self.lst_path))):
-            # Ajouter le nouveau color group à la liste existante
             new_color_group = {
                 "query": "tag:#{}".format(list(set(self.lst_path))[i]),
                 "color": {
@@ -64,15 +61,14 @@ class TreeDiagram(Obsidian):
                 }
             }
             data['colorGroups'].append(new_color_group)
-        # Enregistrer les modifications dans le fichier JSON
         with open('{}/.obsidian/graph.json'.format(self.diagram_path), 'w') as file:
             json.dump(data, file, indent=4)
 
 
 if __name__ == '__main__':
-    path = 'sim_sp/SIM_SP_MFR/src'
-    tree_path = 'sim_sp_tree'
-    obsidian_path = 'C:/Users/antoi/AppData/Local/programs/obsidian/obsidian.exe'
+    path = 'project/src'
+    tree_path = 'tree_diagram'
+    obsidian_path = 'C:/path_to_obsidian/obsidian/obsidian.exe'
 
     tree = TreeDiagram(path, obsidian_path, tree_path, ignore='.ads')
     tree.main()
