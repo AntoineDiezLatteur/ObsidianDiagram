@@ -1,0 +1,11 @@
+#sim_sp_GENESIS_INTERFACES_COMMON_TYPES_src
+[[Genesis.Position]]
+[[Physical_Types]]
+[[Genesis.Bit_Field_Access]]
+[[Interfaces]]
+[[Common_Weapon_Types_Conv]]
+[[Genesis]]
+[[Common_Weapon_Types]]
+[[Genesis.Conversions]]
+[[Genesis.Stack]]
+[[Common_Weapon_Types_Default]]

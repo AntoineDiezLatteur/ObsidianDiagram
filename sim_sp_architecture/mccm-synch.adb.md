@@ -1,0 +1,10 @@
+#sim_sp_MYCCM_src_runtime_synch_synch_api_src
+[[Ada.Exceptions]]
+[[Ada.Streams]]
+[[Ada.Strings.Maps.Constants]]
+[[GNAT.OS_Lib]]
+[[Synch_Common]]
+[[MCCM.Trace]]
+[[MCCM.Config_Synch]]
+[[Ada.Strings.Fixed]]
+[[Ada.Unchecked_Conversion]]

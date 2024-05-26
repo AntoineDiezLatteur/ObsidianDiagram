@@ -1,0 +1,2 @@
+#sim_sp_SIM_SP_MFR_src_detection_simulator_rx_beams
+[[sim_sp_SIM_SP_MFR_src_detection_simulator_rx_beams]]

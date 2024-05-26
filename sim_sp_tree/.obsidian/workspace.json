@@ -1,0 +1,171 @@
+{
+  "main": {
+    "id": "2ddb5b2d184feda1",
+    "type": "split",
+    "children": [
+      {
+        "id": "09285a3c62dbdcf4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2afb465fef6f205e",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c3d506169bc523d3",
+    "type": "split",
+    "children": [
+      {
+        "id": "e22d5117a6a97ecc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "27223571b6fe661d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "4e17ec3ae6ed4cae",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "descri",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "a89a99b9848e58b7",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "51698c2603ab37fb",
+    "type": "split",
+    "children": [
+      {
+        "id": "fe577ae79221dfee",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "81d118f3cf53dbff",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "e40b6e126907b636",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "df5a6b8f263d3264",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "0be141d77525ca57",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "2afb465fef6f205e",
+  "lastOpenFiles": [
+    "scenario_maintainer.adb.md",
+    "hrk_detection_simulator-clutter_detection.adb.md",
+    "clutter.adb.md",
+    "sim_sp_SIM_SP_MFR_src.md",
+    "sim_sp_SIM_SP_MFR_src_scenario.md",
+    "sim_sp_SIM_SP_MFR_src_scenario_clutter.md",
+    "target_extrapolation.adb.md",
+    "scenario.adb.md",
+    "rcs_fluctuation_computation.adb.md",
+    "sim_sp_SIM_SP_MFR_src_scenario_base.md",
+    "sim_sp_SIM_SP_MFR_src_utilities.md",
+    "sim_sp_utilities.ads.md",
+    "sim_sp_utilities.adb.md",
+    "config_sockets.ads.md",
+    "config_sockets.adb.md",
+    "channel.ads.md",
+    "channel.adb.md",
+    "simu_windturbine_mgr.ads.md",
+    "simu_windturbine_mgr.adb.md",
+    "ship_position_mgr.ads.md",
+    "ship_position_mgr.adb.md",
+    "target.ads.md",
+    "target.adb.md",
+    "time_converter.ads.md",
+    "time_converter.adb.md",
+    "target_extrapolation.ads.md"
+  ]
+}

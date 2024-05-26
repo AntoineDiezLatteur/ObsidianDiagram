@@ -1,0 +1,9 @@
+#sim_sp_COMMON_ALGORITHMS_src_POOL_TEMPLATE
+[[Ada.Text_IO]]
+[[Ada.Unchecked_Deallocation]]
+[[System.Address_Image]]
+[[Ada.Task_Identification]]
+[[System.Address_To_Access_Conversions]]
+[[Ada.Strings.Unbounded]]
+[[Hash_Utils]]
+[[Gnat.Source_Info]]

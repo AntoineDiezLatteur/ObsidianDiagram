@@ -1,0 +1,10 @@
+#sim_sp_SIM_SP_MFR_src_detection_simulator_air
+[[Sp_Ext_Common_Default]]
+[[Physical_Types]]
+[[Random_Seeds.Generic_Seed_Template]]
+[[Be_Parameters.Rx_Beams]]
+[[Trace_Manager]]
+[[Hrk_Detection_Simulator.Computer_Facilities.Bp_Builder_Common]]
+[[Sim_Sp.Trace]]
+[[Ada.Numerics.Long_Elementary_Functions]]
+[[Coordinates_Changes]]

@@ -1,0 +1,9 @@
+#sim_sp_MYCCM_src_runtime_gnat_linux_realtime_src_config
+[[Ada.Exceptions]]
+[[MCCM.Config_Xml_Inspect]]
+[[Input_Sources.File]]
+[[MCCM.Sockets]]
+[[Ada.Strings.Maps.Constants]]
+[[Ada.Containers.Bounded_Vectors]]
+[[MCCM.Trace]]
+[[Ada.Strings.Fixed]]

@@ -1,0 +1,345 @@
+{
+  "collapse-filter": true,
+  "search": "",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": true,
+  "colorGroups": [
+    {
+      "query": "tag:#sim_sp_SIM_SP_MFR_src_detection_simulator_computer_facilities",
+      "color": {
+        "a": 1,
+        "rgb": 14376534
+      }
+    },
+    {
+      "query": "tag:#sim_sp_SIM_SP_MFR_src_scenario",
+      "color": {
+        "a": 1,
+        "rgb": 14380886
+      }
+    },
+    {
+      "query": "tag:#sim_sp_SIM_SP_MFR_src",
+      "color": {
+        "a": 1,
+        "rgb": 14385494
+      }
+    },
+    {
+      "query": "tag:#sim_sp_SIM_SP_MFR_src_detection_simulator_not_used",
+      "color": {
+        "a": 1,
+        "rgb": 14389846
+      }
+    },
+    {
+      "query": "tag:#sim_sp_SIM_SP_MFR_src_detection_simulator_theorical_noise",
+      "color": {
+        "a": 1,
+        "rgb": 14394198
+      }
+    },
+    {
+      "query": "tag:#sim_sp_SIM_SP_MFR_src_detection_simulator_clutter",
+      "color": {
+        "a": 1,
+        "rgb": 14398806
+      }
+    },
+    {
+      "query": "tag:#sim_sp_SIM_SP_MFR_src_simu_windturbine_mgr",
+      "color": {
+        "a": 1,
+        "rgb": 14403158
+      }
+    },
+    {
+      "query": "tag:#sim_sp_SIM_SP_MFR_src_base",
+      "color": {
+        "a": 1,
+        "rgb": 14407510
+      }
+    },
+    {
+      "query": "tag:#sim_sp_SIM_SP_MFR_src_detection_simulator_jamming",
+      "color": {
+        "a": 1,
+        "rgb": 13491030
+      }
+    },
+    {
+      "query": "tag:#sim_sp_SIM_SP_MFR_src_detection_simulator_uv",
+      "color": {
+        "a": 1,
+        "rgb": 12376918
+      }
+    },
+    {
+      "query": "tag:#sim_sp_SIM_SP_MFR_src_scenario_base",
+      "color": {
+        "a": 1,
+        "rgb": 11197270
+      }
+    },
+    {
+      "query": "tag:#sim_sp_SIM_SP_MFR_src_Deployment_generated",
+      "color": {
+        "a": 1,
+        "rgb": 10083158
+      }
+    },
+    {
+      "query": "tag:#sim_sp_SIM_SP_MFR_src_Packaging_generated_component_impl",
+      "color": {
+        "a": 1,
+        "rgb": 8969046
+      }
+    },
+    {
+      "query": "tag:#sim_sp_SIM_SP_MFR_src_Packaging_generated",
+      "color": {
+        "a": 1,
+        "rgb": 7854934
+      }
+    },
+    {
+      "query": "tag:#sim_sp_SIM_SP_MFR_src_Deployment_generated_Deployment_DEPLOYMENT_SIM_SP2",
+      "color": {
+        "a": 1,
+        "rgb": 6675286
+      }
+    },
+    {
+      "query": "tag:#sim_sp_SIM_SP_MFR_src_detection_simulator_target_filtering",
+      "color": {
+        "a": 1,
+        "rgb": 5692248
+      }
+    },
+    {
+      "query": "tag:#sim_sp_SIM_SP_MFR_src_detection_simulator_air_disabled",
+      "color": {
+        "a": 1,
+        "rgb": 5692266
+      }
+    },
+    {
+      "query": "tag:#sim_sp_SIM_SP_MFR_src_Deployment_generated_Deployment_DEPLOYMENT_SIM_SP4",
+      "color": {
+        "a": 1,
+        "rgb": 5692283
+      }
+    },
+    {
+      "query": "tag:#sim_sp_SIM_SP_MFR_src_detection_simulator_new_raw_video_computer",
+      "color": {
+        "a": 1,
+        "rgb": 5692300
+      }
+    },
+    {
+      "query": "tag:#sim_sp_SIM_SP_MFR_src_detection_simulator_surface_video",
+      "color": {
+        "a": 1,
+        "rgb": 5692318
+      }
+    },
+    {
+      "query": "tag:#sim_sp_SIM_SP_MFR_src_Deployment_main_files",
+      "color": {
+        "a": 1,
+        "rgb": 5692335
+      }
+    },
+    {
+      "query": "tag:#sim_sp_SIM_SP_MFR_src_scenario_target",
+      "color": {
+        "a": 1,
+        "rgb": 5692352
+      }
+    },
+    {
+      "query": "tag:#sim_sp_SIM_SP_MFR_src_Packaging_component_impl_SIM_SP_impl",
+      "color": {
+        "a": 1,
+        "rgb": 5692369
+      }
+    },
+    {
+      "query": "tag:#sim_sp_SIM_SP_MFR_src_Deployment_generated_genesis_repository",
+      "color": {
+        "a": 1,
+        "rgb": 5690331
+      }
+    },
+    {
+      "query": "tag:#sim_sp_SIM_SP_MFR_src_Deployment_generated_Deployment_DEPLOYMENT_log_repository",
+      "color": {
+        "a": 1,
+        "rgb": 5685979
+      }
+    },
+    {
+      "query": "tag:#sim_sp_SIM_SP_MFR_src_ship_position_mgr",
+      "color": {
+        "a": 1,
+        "rgb": 5681371
+      }
+    },
+    {
+      "query": "tag:#sim_sp_SIM_SP_MFR_src_Deployment",
+      "color": {
+        "a": 1,
+        "rgb": 5677019
+      }
+    },
+    {
+      "query": "tag:#sim_sp_SIM_SP_MFR_src_Deployment_generated_Deployment_DEPLOYMENT_SIM_SP1",
+      "color": {
+        "a": 1,
+        "rgb": 5672667
+      }
+    },
+    {
+      "query": "tag:#sim_sp_SIM_SP_MFR_src_detection_simulator_rx_beams",
+      "color": {
+        "a": 1,
+        "rgb": 5668059
+      }
+    },
+    {
+      "query": "tag:#sim_sp_SIM_SP_MFR_src_scenario_scenario_utilities",
+      "color": {
+        "a": 1,
+        "rgb": 5663707
+      }
+    },
+    {
+      "query": "tag:#sim_sp_SIM_SP_MFR_src_detection_simulator",
+      "color": {
+        "a": 1,
+        "rgb": 5659355
+      }
+    },
+    {
+      "query": "tag:#sim_sp_SIM_SP_MFR_src_Deployment_main_files_Deployment_DEPLOYMENT",
+      "color": {
+        "a": 1,
+        "rgb": 6575835
+      }
+    },
+    {
+      "query": "tag:#sim_sp_SIM_SP_MFR_src_scenario_clutter",
+      "color": {
+        "a": 1,
+        "rgb": 7689947
+      }
+    },
+    {
+      "query": "tag:#sim_sp_SIM_SP_MFR_src_Packaging_component_impl",
+      "color": {
+        "a": 1,
+        "rgb": 8869595
+      }
+    },
+    {
+      "query": "tag:#sim_sp_SIM_SP_MFR_src_detection_simulator_base",
+      "color": {
+        "a": 1,
+        "rgb": 9983707
+      }
+    },
+    {
+      "query": "tag:#sim_sp_SIM_SP_MFR_src_utilities",
+      "color": {
+        "a": 1,
+        "rgb": 11097819
+      }
+    },
+    {
+      "query": "tag:#sim_sp_SIM_SP_MFR_src_common",
+      "color": {
+        "a": 1,
+        "rgb": 12211931
+      }
+    },
+    {
+      "query": "tag:#sim_sp_SIM_SP_MFR_src_Deployment_generated_Deployment_DEPLOYMENT",
+      "color": {
+        "a": 1,
+        "rgb": 13391579
+      }
+    },
+    {
+      "query": "tag:#sim_sp_SIM_SP_MFR_src_detection_simulator_raw_video_computer",
+      "color": {
+        "a": 1,
+        "rgb": 14374617
+      }
+    },
+    {
+      "query": "tag:#sim_sp_SIM_SP_MFR_src_detection_simulator_video",
+      "color": {
+        "a": 1,
+        "rgb": 14374599
+      }
+    },
+    {
+      "query": "tag:#sim_sp_SIM_SP_MFR_src_Deployment_generated_ccm_repository",
+      "color": {
+        "a": 1,
+        "rgb": 14374582
+      }
+    },
+    {
+      "query": "tag:#sim_sp_SIM_SP_MFR_src_no_replayer",
+      "color": {
+        "a": 1,
+        "rgb": 14374565
+      }
+    },
+    {
+      "query": "tag:#sim_sp_SIM_SP_MFR_src_Deployment_generated_Deployment_DEPLOYMENT_SIM_SP3",
+      "color": {
+        "a": 1,
+        "rgb": 14374547
+      }
+    },
+    {
+      "query": "tag:#sim_sp_SIM_SP_MFR_src_Packaging",
+      "color": {
+        "a": 1,
+        "rgb": 14374530
+      }
+    },
+    {
+      "query": "tag:#sim_sp_SIM_SP_MFR_src_scenario_equipment",
+      "color": {
+        "a": 1,
+        "rgb": 14374513
+      }
+    },
+    {
+      "query": "tag:#sim_sp_SIM_SP_MFR_src_detection_simulator_air",
+      "color": {
+        "a": 1,
+        "rgb": 14374496
+      }
+    }
+  ],
+  "collapse-display": false,
+  "showArrow": false,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 1,
+  "lineSizeMultiplier": 1,
+  "collapse-forces": true,
+  "centerStrength": 0.466735966735967,
+  "repelStrength": 11.995841995842,
+  "linkStrength": 1,
+  "linkDistance": 134,
+  "scale": 0.11355705478105077,
+  "close": true
+}

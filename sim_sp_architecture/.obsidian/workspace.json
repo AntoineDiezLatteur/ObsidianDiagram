@@ -1,0 +1,171 @@
+{
+  "main": {
+    "id": "d5b2d330448b9ab6",
+    "type": "split",
+    "children": [
+      {
+        "id": "e9ba46a4f7324beb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "58882dfae84d261b",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "2a1a03d139cc27d7",
+    "type": "split",
+    "children": [
+      {
+        "id": "c794f59e9939a645",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0a80a6cb31d39dc3",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "fdd1c0ca0199c672",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "scattering",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "9240af44bf64b2c2",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "18d59b74157bc1ca",
+    "type": "split",
+    "children": [
+      {
+        "id": "db6b23f0c515b2eb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "df1d52c80f00aad4",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "4f3122bb51033613",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "e1d3e4fe8389c802",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "1441770d4f528255",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "fdd1c0ca0199c672",
+  "lastOpenFiles": [
+    "hrk_detection_simulator-air-detection-standard.adb.md",
+    "hrk_detection_simulator-air-detection-standard-detection_checker.adb.md",
+    "dopp_filter_bank_group_param_types_last_default.adb.md",
+    "packaging-frag_sim_sp_to_ext_sim_sp_to_ext_cm_receiveimpl.adb.md",
+    "hrk_detection_simulator-computer_facilities-init_computer_facilities.adb.md",
+    "hrk_detection_simulator-computer_facilities-compute_scattering.adb.md",
+    "parameters_reader_file_access.adb.md",
+    "tests_param_services.adb.md",
+    "tree_handling_template.adb.md",
+    "list_of_tagged_template.adb.md",
+    "list_handling_with_call_back_template.adb.md",
+    "list_handling_template.adb.md",
+    "header_list_handling_with_call_back_template.adb.md",
+    "header_list_handling_template.adb.md",
+    "dyntable_handling_template.adb.md",
+    "dynlist_handling_template.adb.md",
+    "translate_logical_name.adb.md",
+    "trace_manager.adb.md",
+    "stdout_trace_manager.adb.md",
+    "network_trace_manager.adb.md",
+    "time_manager_template.adb.md",
+    "time_converter_template.adb.md",
+    "unix_time.adb.md",
+    "protected_time_converter_template.adb.md",
+    "protected_template.adb.md",
+    "gps_time.adb.md"
+  ]
+}

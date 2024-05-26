@@ -1,0 +1,6 @@
+#sim_sp_GENESIS_INTERFACES_EXT_AIR_SP_src
+[[Be_Sp_Msg_Block_Types_Dja_Conf_Track]]
+[[Be_Sp_Msg_Block_Types_Dwell_Coordinates_Last_Default]]
+[[Be_Acs_Sp_Msg_Block_Types_Dja_Parameters_Last_Default]]
+[[Be_Sp_Msg_Block_Types_Strobe_Analysis_Last_Default]]
+[[Common_Msg_Types_Jnr_Last_Default]]

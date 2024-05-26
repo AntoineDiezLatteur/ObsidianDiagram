@@ -1,0 +1,11 @@
+#sim_sp_GENESIS_INTERFACES_EXT_AIR_SP_src
+[[Be_Acs_Sp_Msg_Block_Types_Air_Waveform_Parameters]]
+[[Common_Msg_Types_Beam_Types_Last_Default]]
+[[Common_Msg_Types_Pulse_Width_Last_Default]]
+[[Common_Msg_Types_Pulses_Last_Default]]
+[[Common_Basic_Type_Last_Default]]
+[[Common_Msg_Types_Bursts_Last_Default]]
+[[Common_Msg_Types_Frequencies_Last_Default]]
+[[Common_Msg_Types_Positions_Last_Default]]
+[[Common_Waveform_Type_Last_Default]]
+[[Be_Acs_Sp_Msg_Elementary_Types_Last_Default]]

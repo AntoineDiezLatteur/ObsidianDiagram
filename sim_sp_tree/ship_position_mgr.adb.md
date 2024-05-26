@@ -1,0 +1,2 @@
+#sim_sp_SIM_SP_MFR_src_ship_position_mgr
+[[sim_sp_SIM_SP_MFR_src_ship_position_mgr]]
