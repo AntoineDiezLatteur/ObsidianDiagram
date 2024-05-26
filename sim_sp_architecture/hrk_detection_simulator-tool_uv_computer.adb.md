@@ -1,2 +1,0 @@
-#sim_sp_SIM_SP_MFR_src_detection_simulator_uv
-[[Hrk_Detection_Simulator.Uv_Converter]]

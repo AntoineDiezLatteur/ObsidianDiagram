@@ -1,2 +1,0 @@
-#sim_sp_SIM_SP_MFR_src_detection_simulator_theorical_noise
-[[sim_sp_SIM_SP_MFR_src_detection_simulator_theorical_noise]]

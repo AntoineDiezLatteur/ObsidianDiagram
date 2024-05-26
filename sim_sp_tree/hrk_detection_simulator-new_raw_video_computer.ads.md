@@ -1,2 +1,0 @@
-#sim_sp_SIM_SP_MFR_src_detection_simulator_new_raw_video_computer
-[[sim_sp_SIM_SP_MFR_src_detection_simulator_new_raw_video_computer]]

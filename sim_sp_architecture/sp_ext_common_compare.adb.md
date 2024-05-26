@@ -1,9 +1,0 @@
-#sim_sp_GENESIS_INTERFACES_SP_EXT_COMMON_src
-[[Physical_Types]]
-[[Common_Basic_Type_Compare]]
-[[Interfaces]]
-[[Common_Basic_Type]]
-[[Genesis]]
-[[Genesis.Conversions]]
-[[Sp_Ext_Common]]
-[[Physical_Manager]]

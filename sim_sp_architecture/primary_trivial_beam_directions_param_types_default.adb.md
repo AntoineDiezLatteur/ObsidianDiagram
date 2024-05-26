@@ -1,3 +1,0 @@
-#sim_sp_GENESIS_INTERFACES_PARAM_src_cbe
-[[Types_Internal_Param_Default]]
-[[Primary_Trivial_Beam_Directions_Param_Types]]

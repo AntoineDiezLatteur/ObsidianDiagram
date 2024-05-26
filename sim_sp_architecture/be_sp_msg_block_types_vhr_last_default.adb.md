@@ -1,5 +1,0 @@
-#sim_sp_GENESIS_INTERFACES_EXT_AIR_SP_src
-[[Be_Sp_Msg_Block_Types_Dwell_Coordinates_Last_Default]]
-[[Common_Msg_Types_Vhr_Last_Default]]
-[[Be_Sp_Msg_Block_Types_Vhr]]
-[[Be_Acs_Sp_Msg_Block_Types_Air_Waveform_Parameters_Last_Default]]

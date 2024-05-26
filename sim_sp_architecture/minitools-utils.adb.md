@@ -1,9 +1,0 @@
-#sim_sp_MINITOOLS_UTILS_src_utils
-[[Posix.Io]]
-[[Posix.Process_Identification]]
-[[Posix.Process_Primitives]]
-[[Minitools.Strings.Chop]]
-[[Minitools.Selectors]]
-[[Gnat.Directory_Operations]]
-[[Ada.Strings.Fixed]]
-[[Ada.Directories]]

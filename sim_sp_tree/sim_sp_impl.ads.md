@@ -1,2 +1,0 @@
-#sim_sp_SIM_SP_MFR_src_Packaging_component_impl_SIM_SP_impl
-[[sim_sp_SIM_SP_MFR_src_Packaging_component_impl_SIM_SP_impl]]

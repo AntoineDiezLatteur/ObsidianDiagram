@@ -1,2 +1,0 @@
-#sim_sp_BACKEND_PARAM_TOOLS_src_WAVEFORM_SERVICES
-[[Physical_Manager]]

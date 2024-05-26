@@ -1,8 +1,0 @@
-#sim_sp_GENESIS_INTERFACES_COMMON_TYPES_src
-[[Genesis.Position]]
-[[Genesis.Bit_Field_Access]]
-[[Common_Basic_Type]]
-[[Interfaces]]
-[[Genesis]]
-[[Common_Basic_Type_Conv]]
-[[Genesis.Stack]]

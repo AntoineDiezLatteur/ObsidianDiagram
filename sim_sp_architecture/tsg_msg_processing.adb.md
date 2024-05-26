@@ -1,9 +1,0 @@
-#sim_sp_SIM_SP_MFR_src_base
-[[Ada.Text_IO]]
-[[Scenario_Maintainer]]
-[[Physical_Types]]
-[[Sim_Sp.Supervisor]]
-[[Translate_Logical_Name]]
-[[Container.Times]]
-[[Scenario]]
-[[Physical_Manager]]

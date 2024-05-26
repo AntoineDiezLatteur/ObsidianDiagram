@@ -1,9 +1,0 @@
-#sim_sp_GENESIS_INTERFACES_EXT_AIR_SP_src
-[[Common_Msg_Types_Frequencies_Write]]
-[[Genesis.Position]]
-[[Genesis.Bit_Field_Access]]
-[[Interfaces]]
-[[Be_Acs_Sp_Msg_Block_Types_Frequencies]]
-[[Genesis]]
-[[Common_Msg_Types_Bursts]]
-[[Genesis.Stack]]

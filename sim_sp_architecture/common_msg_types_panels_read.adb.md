@@ -1,9 +1,0 @@
-#sim_sp_GENESIS_INTERFACES_COMMON_TYPES_src
-[[Genesis.Position]]
-[[Genesis.Bit_Field_Access]]
-[[Interfaces]]
-[[Common_Msg_Types_Panels]]
-[[Genesis]]
-[[Common_Msg_Types_Panels_Conv]]
-[[Genesis.Stack]]
-[[Common_Msg_Types_Panels_Default]]
