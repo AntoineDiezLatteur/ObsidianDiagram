@@ -6,10 +6,12 @@ Description: Handle the console arguments and call the appropriate command.
 """
 
 import argparse
+import os
 from src.TreeDiagram import TreeDiagram
 from src.ArchitectureDiagram import ArchitectureDiagram
 from src.Obsidian import Obsidian
 from src.Explorer import Explorer
+import numpy as np
 
 
 class Diagram:
@@ -36,12 +38,16 @@ class Diagram:
         # Secondary arguments
         parser.add_argument('-obs', '--obsidian', type=str, default='C:/path_to_obsidian/obsidian/obsidian.exe',
                             help='Select the obsidian path ')
-        parser.add_argument('-p', '--path', type=str, default='project/src',
+        parser.add_argument('-p', '--path', type=str, default=os.path.abspath(os.sep),
                             help='Select the path to explore ')
         parser.add_argument('-d', '--diagram', type=str, default='diagram_vault',
                             help='Select the diagram path ')
-        parser.add_argument('-i', '--ignore', type=str, default='.klmsnfnmlkjfg',
+        parser.add_argument('-i', '--ignore', type=str, default='.git',
                             help='Select the ignore extension ')
+        parser.add_argument('-depth', '--depth_max', type=float, default=np.inf,
+                            help='Select the maximum depth of the file tree ')
+        parser.add_argument('-od', '--only_dir', action='store_true',
+                            help='Display only the directories')
 
         return parser.parse_args()
 
@@ -73,7 +79,7 @@ class Diagram:
                      self.args.diagram,
                      self.args.ignore).open_diagram_path()
         elif self.args.explore:
-            Explorer().print_file_tree(self.args.path)
+            Explorer().print_file_tree(self.args.path, ignore=self.args.ignore, depth_max=self.args.depth_max, only_dir=self.args.only_dir)
         else:
             print('Invalid type')
 
