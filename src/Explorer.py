@@ -13,71 +13,40 @@ class Explorer:
     def __init__(self):
         pass
 
-    # def print_file_tree(self, path, indent=0, ignore='.git', depth_max=np.inf , only_dir=False):
-    #     try :
-    #         for item in os.listdir(path):
-    #             if indent >= depth_max:
-    #                 pass
-    #             else :
-    #                 if item.endswith(ignore) or item.startswith('.'):
-    #                     pass
-    #                 else:
-    #                     item_path = os.path.join(path, item)
-    #                     if os.path.isdir(item_path):
-    #                         print('  ' * indent + '- ' + item)
-    #                         self.print_file_tree(item_path, indent + 1, ignore, depth_max, only_dir)
-    #                     elif not only_dir:
-    #                         print('  ' * indent + '- ' + item)
-    #                     elif only_dir:
-    #                         pass
-    #     except PermissionError as e:
-    #         print(f"Error: {e}")
-
-    # def print_file_tree(self, path, indent=0, ignore='.git', depth_max=float('inf'), only_dir=False):
-    #     try:
-    #         for item in os.listdir(path):
-    #             if indent >= depth_max:
-    #                 continue
-    #             if item.endswith(ignore) or item.startswith('.'):
-    #                 continue
-    #             item_path = os.path.join(path, item)
-    #             if os.path.isdir(item_path):
-    #                 if indent == 0:
-    #                     print(item)
-    #                 else:
-    #                     print('│   ' * (indent - 1) + '└── ' + item)
-    #                 self.print_file_tree(item_path, indent + 1, ignore, depth_max, only_dir)
-    #             elif not only_dir:
-    #                 print('│   ' * indent + '├── ' + item)
-    #     except PermissionError as e:
-    #         print(f"Error: {e}")
-
-    def print_file_tree(self, path, indent='', ignore='.git', depth_max=np.inf, only_dir=False):
-        try:
-            items = sorted(os.listdir(path))
-            for i, item in enumerate(items):
-                if indent:
-                    if i == len(items) - 1:
-                        print(indent[:-1] + '└── ', end='')
-                    else:
-                        print(indent[:-1] + '├── ', end='')
+    def print_file_tree(self, file_path, indent='', ignore=None, depth_max=np.inf, only_dir=False, start=True):
+        try : #handle permission error
+            if start : #if it's the first call of the function, print the root directory
+                if file_path[-1] == '/' or file_path[-1] == '\\':
+                    root = file_path
                 else:
-                    print('', end='')
-
-                print(item)
-
-                item_path = os.path.join(path, item)
-                if os.path.isdir(item_path):
-                    if indent:
-                        self.print_file_tree(item_path, indent + '│   ', ignore, depth_max, only_dir)
+                    root = os.path.   basename(file_path)
+                print(' └── ' + root)
+                start = False
+            items = sorted(os.listdir(file_path))
+            for i, item in enumerate(items):
+                if len(indent)/5 >= depth_max: # handle the max depth of the tree
+                    pass
+                else:
+                    if item.endswith(tuple(ignore)) and ignore != ['']: # handle the ignored extensions
+                        pass
                     else:
-                        self.print_file_tree(item_path, '    ', ignore, depth_max, only_dir)
-                elif not only_dir:
-                    pass
-                elif only_dir:
-                    pass
+                        if i == len(items) - 1: # handle the graphical display of the last item of a directory
+                            add_to_indent = ' └── '
+                            next_indent = indent + '     '
+                        else:
+                            add_to_indent = ' ├── '
+                            next_indent = indent + ' │   '
+                        item_path = os.path.join(file_path, item)
+                        if os.path.isdir(os.path.join(file_path, item)): # handle the display of directories and only directories representation
+                            print('    ' + indent + add_to_indent, item)
+                            self.print_file_tree(item_path, next_indent, ignore, depth_max, only_dir, start)
+                        elif not only_dir:
+                            print('    ' + indent + add_to_indent, item)
+                        elif only_dir:
+                            pass
         except PermissionError as e:
             print(f"Error: {e}")
+
 
 
 if __name__ == '__main__':

@@ -42,8 +42,8 @@ class Diagram:
                             help='Select the path to explore ')
         parser.add_argument('-d', '--diagram', type=str, default='diagram_vault',
                             help='Select the diagram path ')
-        parser.add_argument('-i', '--ignore', type=str, default='.git',
-                            help='Select the ignore extension ')
+        parser.add_argument('-i', '--ignore', type=str, default='',
+                            help='Select the ignored extensions, separator : "," ')
         parser.add_argument('-depth', '--depth_max', type=float, default=np.inf,
                             help='Select the maximum depth of the file tree ')
         parser.add_argument('-od', '--only_dir', action='store_true',
@@ -79,7 +79,7 @@ class Diagram:
                      self.args.diagram,
                      self.args.ignore).open_diagram_path()
         elif self.args.explore:
-            Explorer().print_file_tree(self.args.path, ignore=self.args.ignore, depth_max=self.args.depth_max, only_dir=self.args.only_dir)
+            Explorer().print_file_tree(self.args.path, ignore=self.args.ignore.split(','), depth_max=self.args.depth_max, only_dir=self.args.only_dir)
         else:
             print('Invalid type')
 
